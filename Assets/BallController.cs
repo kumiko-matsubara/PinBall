@@ -27,7 +27,7 @@ public class BallController : MonoBehaviour {
 
     }
     //衝突時に呼ばれる関数
-    void OnCOllisionEnter (Collision other) {
+    void OnCollisionEnter (Collision other) {
         if (other.gameObject.tag == "SmallStarTag")
         {
             this.ScoreText.GetComponent<ScoreController>().score += 10;
