@@ -4,16 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreController : MonoBehaviour {
-    //Scoreを表示するテキスト
-    private 
+  
+    //score計算用変数
+    public int score = 0;
 
 	// Use this for initialization
 	void Start () {
+        
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () { 
 		
 	}
 }
